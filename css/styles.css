@@ -12,10 +12,15 @@ body {
 h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
-  font-size: 3rem;
+  font-size: 3.5rem;
   line-height: 1.5;
 }
 
+h3 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 1.5rem;
+}
 /* Nav Bar */
 .navbar {
   padding: 0 0 4.5rem;
@@ -34,4 +39,45 @@ h1 {
   font-size: 1.2rem;
   font-family: "Montserrat";
   font-weight: 500;
+}
+
+/* button */
+.down-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+}
+
+/* features */
+.features {
+  padding: 7% 15%;
+}
+.features-item {
+  text-align: center;
+  margin: 10% 0;
+}
+
+.features-item p {
+  margin: 0 auto;
+  color: #8f8f8f;
+}
+
+.icon {
+  color: #04b2d9;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #010a26;
+}
+
+/* testimonials */
+
+#testimonials {
+  padding: 7% 15%;
+  background-color: #010a26;
 }
