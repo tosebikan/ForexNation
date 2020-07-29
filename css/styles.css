@@ -1,6 +1,9 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
+.grey {
+  color: #8f8f8f;
+}
 #title {
   background-color: #04b2d9;
 }
@@ -156,6 +159,10 @@ h3 {
   padding: 3% 2%;
 }
 
+.pricing-header {
+  color: #04b2d9;
+}
+
 /* cta */
 
 #cta {
@@ -166,11 +173,12 @@ h3 {
 
 .cta-title {
   font-size: 3.5rem;
+  line-height: 1.5;
 }
 
 @media (max-width: 1024px) {
   #cta {
-    padding: 12% 5%;
+    padding: 12% 7%;
   }
   .cta-title {
     font-size: 1.5rem;
@@ -184,9 +192,9 @@ h3 {
 /* footer */
 #footer {
   text-align: center;
-  margin: 5%;
+  margin: 5% 3%;
 }
 
 .footer-icon {
-  margin: 5% 3%;
+  margin: 20px 10px;
 }
