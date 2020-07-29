@@ -99,14 +99,28 @@ h3 {
 /* testimonials */
 
 #testimonials {
-  padding: 7% 15%;
   background-color: #05f2f2;
   color: #010a26;
   text-align: center;
 }
 
+.carousel-item {
+  padding: 7% 15%;
+}
+
 .testimonial-image {
-  width: 10%;
+  width: 15%;
   border-radius: 100%;
   margin: 20px;
+}
+/* press */
+#press {
+  background-color: #05f2f2;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
 }
