@@ -75,6 +75,9 @@ h3 {
 }
 
 @media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
   .title-img {
     position: static;
     transform: rotate(0deg);
@@ -151,4 +154,26 @@ h3 {
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+/* cta */
+
+#cta {
+  text-align: center;
+  padding: 7% 5%;
+  background-color: #04b2d9;
+}
+
+.cta-title {
+  font-size: 3.5rem;
+}
+
+@media (max-width: 1024px) {
+  .cta-title {
+    font-size: 1.5rem;
+  }
+}
+
+.cta-button {
+  margin: 5% 0 5%;
 }
