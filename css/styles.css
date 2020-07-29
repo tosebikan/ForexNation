@@ -169,6 +169,9 @@ h3 {
 }
 
 @media (max-width: 1024px) {
+  #cta {
+    padding: 12% 5%;
+  }
   .cta-title {
     font-size: 1.5rem;
   }
@@ -176,4 +179,14 @@ h3 {
 
 .cta-button {
   margin: 5% 0 5%;
+}
+
+/* footer */
+#footer {
+  text-align: center;
+  margin: 5%;
+}
+
+.footer-icon {
+  margin: 5% 3%;
 }
