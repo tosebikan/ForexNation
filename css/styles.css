@@ -87,6 +87,27 @@ h3 {
   transform: rotate(25deg);
   position: absolute;
   right: 30%;
+  animation-duration: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+  animation-iteration-count: infinite;
+}
+
+.image-bounce {
+  -webkit-animation-name: image-bounce;
+  -webkit-animation-duration: 2s;
+  animation-name: image-bounce;
+  animation-duration: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+  animation-timing-function: ease;
+}
+@keyframes image-bounce {
+  0% {
+    transform: translateY(0) rotate(25deg);
+  }
+  50% {
+    transform: translateY(-15px) rotate(25deg);
+  }
+  100% {
+    transform: translateY(0) rotate(25deg);
+  }
 }
 
 @media (max-width: 1028px) {
@@ -96,6 +117,18 @@ h3 {
   .title-img {
     position: static;
     transform: rotate(0deg);
+  }
+
+  @keyframes image-bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
   }
 }
 
