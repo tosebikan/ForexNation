@@ -183,8 +183,15 @@ h3 {
   margin: 20px;
 }
 .testimonial-text {
-  font-size: 2rem;
+  font-size: 1rem;
   line-height: 1.5;
+}
+
+@media (min-width: 1000px) {
+  .testimonial-text {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
 }
 /* press */
 #press {
@@ -247,4 +254,117 @@ h3 {
 
 .footer-icon {
   margin: 20px 10px;
+}
+
+/* download section */
+
+.download-container {
+  padding: 0;
+  height: 100vh;
+}
+
+.download-container p {
+  font-size: 12px;
+}
+.download-container h2 {
+  font-size: 21px;
+}
+
+.download-item {
+  height: 50vh;
+}
+
+.download-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.download-item2 {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.download-item-top p {
+  font-weight: bold;
+}
+
+.download-item-mid {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+}
+.download-item-mid h2 {
+  font-weight: bold;
+}
+
+.download-form-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+  background-color: #fff;
+  border: 0.5px solid #000;
+  color: #fff;
+  height: 40px;
+  width: 70%;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+.download-form-container input {
+  border: none;
+  background-color: none;
+  width: 50%;
+}
+
+.download-form-button {
+  border: none;
+  border-radius: 20px;
+  padding: 8px 20px;
+  background-color: #000;
+  color: #fff;
+}
+
+@media (min-width: 1000px) {
+  .download-container p {
+    font-size: 16px;
+  }
+  .download-container h2 {
+    font-size: 2rem;
+  }
+  .download-item {
+    height: 100vh;
+  }
+  .download-item2 {
+    height: 100vh;
+    align-items: flex-start;
+    width: 70%;
+  }
+  .download-item-mid {
+    text-align: left;
+  }
+  .download-form-container {
+    margin: 0;
+    margin-bottom: 20px;
+    height: 45px;
+  }
+}
+
+.download-item-bot {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.download-item-bot p {
+  margin-bottom: 0;
+  margin-right: 20px;
+}
+.download-item-bot i {
+  margin-right: 10px;
 }
